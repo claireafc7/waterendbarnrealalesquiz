@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Ale</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/app.js" type="module"></script>
+</head>
+<body>
+    <h1>Find your perfect Ale!</h1>
+    <form id="ale-generator-form">
+        <div class="dropdown-section">
+            <label for="strength">Pick your strength!</label>
+            <select id="strength" name="Strength">
+                <option value="Below 3.5% ABV">Below 3.5% ABV</option>
+                <option value="Between 3.5% ABV and 4.5% ABV">Between 3.5% ABV and 4.5% ABV</option>
+                <option value="Between 4.5% ABV and 5.5% ABV">Between 4.5% ABV and 5.5% ABV</option>
+                <option value="Above 5.5% ABV">Above 5.5% ABV</option>
+            </select>
+        </div>
+        <div class="dropdown-section">
+            <label for="colour">Pick your colour!</label>
+            <select id="colour" name="Colour">
+                <option value="Pale">Pale, Blond</option>
+                <option value="Golden">Golden</option>
+                <option value="Amber">Amber, Mid Brown</option>
+                <option value="Ruby">Ruby, Dark Brown</option>
+                <option value="Black">Deep Ruby, Black</option>
+            </select>
+        </div>
+        <fieldset class="flavour-grid">
+            <legend class="flavour-legend">Pick your flavour profile! (Pick a maximum of 3):</legend>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-citrus" name="flavour" value="citrus">
+                <label for="flavour-citrus">Citrusy</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-fruity" name="flavour" value="fruity">
+                <label for="flavour-fruity">Fruity</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-hoppy" name="flavour" value="hoppy">
+                <label for="flavour-hoppy">Hoppy</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-malt" name="flavour" value="malt">
+                <label for="flavour-malt">Malty</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-chocolate" name="flavour" value="chocolate">
+                <label for="flavour-chocolate">Chocolatey</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-toffee" name="flavour" value="toffee">
+                <label for="flavour-toffee">Toffee</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-biscuit" name="flavour" value="biscuit">
+                <label for="flavour-biscuit">Biscuit</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-caramel" name="flavour" value="caramel">
+                <label for="flavour-caramel">Caramel</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-bitter" name="flavour" value="bitter">
+                <label for="flavour-bitter">Bitter</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-floral" name="flavour" value="floral">
+                <label for="flavour-floral">Floral</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-tropical" name="flavour" value="tropical">
+                <label for="flavour-tropical">Tropical</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-nutty" name="flavour" value="nutty">
+                <label for="flavour-nutty">Nutty</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-coffee" name="flavour" value="coffee">
+                <label for="flavour-coffee">Coffee</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-fruitcake" name="flavour" value="fruitcake">
+                <label for="flavour-fruitcake">Fruitcake</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-smooth" name="flavour" value="smooth">
+                <label for="flavour-smooth">Smooth</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-refreshing" name="flavour" value="refreshing">
+                <label for="flavour-refreshing">Refreshing</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-spicy" name="flavour" value="spicy">
+                <label for="flavour-spicy">Spicy</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-fullbodied" name="flavour" value="full-bodied">
+                <label for="flavour-fullbodied">Full Bodied</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-dry" name="flavour" value="dry">
+                <label for="flavour-dry">Dry</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-honey" name="flavour" value="honey">
+                <label for="flavour-honey">Honey</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-roasted" name="flavour" value="roasted">
+                <label for="flavour-roasted">Roasted</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-light" name="flavour" value="light">
+                <label for="flavour-light">Light</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-rich" name="flavour" value="rich">
+                <label for="flavour-rich">Rich</label>
+            </div>
+            <div class="flavour-checkbox">
+                <input type="checkbox" id="flavour-sweet" name="flavour" value="sweet">
+                <label for="flavour-sweet">Sweet</label>
+            </div>
+        </fieldset>
+        <br>
+        <button type="button" id="find-ale-button">Find my Ale!</button>
+        <div id="result"></div>
+    </form>
+    <script>
+        // JavaScript to limit the number of selected flavours
+        document.querySelectorAll('input[name="flavour"]').forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                const checkedFlavours = document.querySelectorAll('input[name="flavour"]:checked');
+                if (checkedFlavours.length > 3) {
+                    checkbox.checked = false;
+                    alert("You can only select up to 3 flavours.");
+                }
+            });
+        });
+    </script>
+    <script src="/app.js" type="module"></script>
+</body>
+</html>
