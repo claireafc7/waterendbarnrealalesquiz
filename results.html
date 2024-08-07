@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your perfect Ale!</title>
+    <title>Your Perfect Ale!</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,33 +35,45 @@
         button {
             border-radius: 10px;
             color: black;
-            border-color: Black;
+            border-color: black;
             background-color: #B48A61;
             padding: 10px 20px;
             font-size: 14px;
             cursor: pointer;
             margin-top: 20px;
-            
         }
 
         button:hover {
             background-color: blanchedalmond;
         }
+
+        .small-button {
+            border-radius: 0;
+            background-color: lightgrey;
+            padding: 5px 10px;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .small-button:hover {
+            background-color: darkgrey;
+        }
     </style>
 </head>
 <body>
-    <h1>Your perfect Ale!</h1>
+    <h1>Your Perfect Ale!</h1>
     <div class="result-container" id="result">
         <!-- Result content will be injected here by results.js -->
     </div>
     <a href="index.html">
-        <button>Try our quiz again</button>
+        <button>Find another Ale</button>
     </a>
-    <div> <a href="https://waterendbarnrealale.co.uk">
-        <button>Return to main site</button>
-    </a> </div>
+    <div>
+        <a href="https://waterendbarnrealale.co.uk">
+            <button class="small-button">Return to site</button>
+        </a>
+    </div>
     <script src="/results.js" type="module"></script>
 </body>
 </html>
-
 
