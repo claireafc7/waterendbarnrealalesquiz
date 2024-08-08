@@ -9,6 +9,96 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="/app.js" type="module"></script>
+    
+
+  <!-- Other meta tags and CSS files -->
+
+  <style>
+    /* Style for the body when the popup is active */
+    body.consent-required {
+      overflow: hidden; /* Prevent scrolling */
+      display: none; /* Hide the main content */
+    }
+
+    /* Style for the consent popup */
+    #consent-popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10000;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    #consent-popup div {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 500px;
+    }
+
+    #consent-popup button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    #consent-popup button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  
+  <script>
+    // Check consent status before the page loads
+    (function() {
+      if (!localStorage.getItem("cookieConsent")) {
+        // Add 'consent-required' class to body to hide content
+        document.addEventListener("DOMContentLoaded", function() {
+          document.body.classList.add("consent-required");
+
+          // Create the consent popup
+          var consentPopup = document.createElement("div");
+          consentPopup.id = "consent-popup";
+          
+          consentPopup.innerHTML = `
+            <div>
+              <p>By consenting you are allowing us to collect data relevant to us through the use of our website.</p>
+              <button id="accept-cookies">Accept</button>
+              <a href="/privacy-policy" style="color: #ddd; text-decoration: underline; display: block; margin-top: 10px;">
+                Learn more
+              </a>
+            </div>
+          `;
+
+          document.body.appendChild(consentPopup);
+
+          // Add event listener to the accept button
+          document.getElementById("accept-cookies").addEventListener("click", function() {
+            localStorage.setItem("cookieConsent", "true");
+            document.body.removeChild(consentPopup);
+            document.body.classList.remove("consent-required"); // Show the main content
+            document.body.style.display = "block"; // Ensure the body content is visible after acceptance
+          });
+        });
+      } else {
+        // Consent already given, show the content immediately
+        document.addEventListener("DOMContentLoaded", function() {
+          document.body.style.display = "block";
+        });
+      }
+    })();
+  </script>
+
 </head>
 <body>
     <h1>Find your perfect Ale!</h1>
