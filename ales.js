@@ -158,7 +158,7 @@ export const ales = [
         name: "Old Peculier",
         strengthCategory: 5.6,
         strength: "Above 5.5% ABV",
-        colour: "Deep Ruby, Black",
+        colour: "Black",
         flavour: ["Rich", "Fruity", "Smooth"]
     },
     
@@ -310,7 +310,7 @@ export const ales = [
         name: "Lancaster Black",
         strengthCategory: 4.5,
         strength: "Between 3.5% ABV and 4.5% ABV",
-        colour: "Deep Ruby, Black",
+        colour: "Black",
         flavour: ["Chocolatey", "Smooth", "Floral"]
     },
     
@@ -415,7 +415,7 @@ export const ales = [
         name: "Old Growler",
         strengthCategory: 5.0,
         strength: "Between 4.6% ABV and 5.5% ABV",
-        colour: "Deep Ruby, Black",
+        colour: "Black",
         flavour: ["Roasted", "Smooth", "Fruity"]
     },
     
