@@ -5,7 +5,7 @@ export const ales = [
         strengthCategory: 5.0,
         strength: "Between 4.6% ABV and 5.5% ABV",
         colour: "Amber",
-        flavour: ["Fruity", "Malty", "Rich"]
+        flavour: ["Fruity", "Malty", "Rich", "Bitter", "Sweet"]
     },
     {
         name: "IPA",
@@ -16,8 +16,8 @@ export const ales = [
     },
     {
         name: "Ruddles Best",
-        strengthCategory: 3.7,
-        strength: "Between 3.5% ABV and 4.5% ABV",
+        strengthCategory: 3.4,
+        strength: "Below 3.5% ABV",
         colour: "Amber",
         flavour: ["Tropical", "Toffee", "Caramel"]
     },
@@ -465,5 +465,150 @@ export const ales = [
         strength: "Between 4.6% ABV and 5.5% ABV",
         colour: "Golden",
         flavour: ["Bitter", "Honey", "Citrusy"]
-    }
+    },
+    
+        {
+        name: "Redemption Fellowship Porter",
+        strengthCategory: 5.1,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Smooth", "Chocolate", "Coffee", "Malt", "Bitter", "Roasted"]
+    },
+    
+        {
+        name: "Redemption Hopspur",
+        strengthCategory: 4.5,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Caramel", "Citrusy", "Biscut", "Hoppy", "Bitter"]
+    },
+    
+        {
+        name: "Redemption Kazbek",
+        strengthCategory: 4,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Citrusy", "Fruity", "Zesty", "Refreshing"]
+    },
+    
+        {
+        name: "Tring Piggeries",
+        strengthCategory: 3.8,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Biscuit", "Caramel", "Toffee", "Fruity"]
+    },
+    
+        {
+        name: "Tring Liberator",
+        strengthCategory: 4.1,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Tropical", "Refreshing", "Fruity", "Hoppy"]
+    },
+    
+        {
+        name: "Tring Rye House",
+        strengthCategory: 3.9,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Citrusy", "Sweet", "Bitter", "Spicy", "Hoppy"]
+    },
+    
+        {
+        name: "Tring Squadron Scramble",
+        strengthCategory: 4,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Malty", "Hoppy", "Full Bodied"]
+    },
+    
+        {
+        name: "Tring Hellfire",
+        strengthCategory: 4.3,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Nutty", "Spicy", "Malty", "Bitter"]
+    },
+    
+        {
+        name: "Sambrook's Junction",
+        strengthCategory: 4.5,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Spicy", "Fruity", "Malty", "Sweet"]
+    },
+    
+         {
+        name: "Sambrook's Wandle",
+        strengthCategory: 3.8,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Spicy", "Citrusy", "Biscuit", "Sweet"]
+    },
+    
+         {
+        name: "Sambrook's Tomahwak",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Coffee", "Fruity", "Malty", "Toffee", "Chocolatey"]
+    },
+    
+         {
+        name: "Sambrook's Pumphouse Pale Ale",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Spicy", "Fruity", "Malty", "Citrusy", "Dry"]
+    },
+    
+         {
+        name: "Canberra",
+        strengthCategory: 4,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Chocolate", "Fruity", "Sweet"]
+    },
+    
+         {
+        name: "Conqueror",
+        strengthCategory: 5,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Black",
+        flavour: ["Malty", "Roasted", "Citrusy", "Dry"]
+    },
+    
+         {
+        name: "Eton Boatman",
+        strengthCategory: 4.3,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Tropical", "Fruity", "Sweet", "Citrusy"]
+    },
+    
+         {
+        name: "Guardsman",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Hoppy", "Bitter", "Refreshing"]
+    },
+    
+          {
+        name: "Knight of the Garter",
+        strengthCategory: 3.8,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Fruity", "Hoppy", "Citrusy", "Sweet"]
+    },
+    
+         {
+        name: "Windsor Knot",
+        strengthCategory: 4,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Bitter", "Sweet", "Refreshing", "Fruity"]
+    },
+    
 ];
