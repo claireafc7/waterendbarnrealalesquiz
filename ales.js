@@ -610,5 +610,167 @@ export const ales = [
         colour: "Pale, Blond",
         flavour: ["Bitter", "Sweet", "Refreshing", "Fruity"]
     },
+
+         {
+        name: "Otter Amber",
+        strengthCategory: 4,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Full Bodied", "Malty", "Tropical", "Fruity"]
+    },
+
+         {
+        name: "Mad Squirrel Evolve",
+        strengthCategory: 4.1,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Tropical", "Floral", "Citrusy", "Fruity"]
+    },
+
+         {
+        name: "Oakham Below Zero",
+        strengthCategory: 4.1,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Bitter", "Zesty", "Tropical", "Fruity"]
+    },
     
+          {
+        name: "Devon Darkness",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Black",
+        flavour: ["Coffee", "Smooth", "Chocolatey", "Bitter"]
+    },
+
+         {
+        name: "Maxim Eclipse",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Chocolatey", "Toffee", "Smooth"]
+    },
+    
+       {
+        name: "Purity Mad Goose",
+        strengthCategory: 4.2,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Zesty", "Malty", "Smooth", "Citrusy"]
+    },
+    
+           {
+        name: "Jack Frost Blond",
+        strengthCategory: 4.3,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Bitter", "Zesty", "Citrusy", "Hoppy"]
+    },
+
+         {
+        name: "Yankee",
+        strengthCategory: 4.3,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Malty", "Floral", "Citrusy"]
+    },
+    
+             {
+        name: "Hop Twister",
+        strengthCategory: 4.5,
+        strength: "Between 3.5% ABV and 4.5% ABV",
+        colour: "Golden",
+        flavour: ["Citrusy", "Malty", "Bitter", "Dry"]
+    },
+
+         {
+        name: "Market Porter",
+        strengthCategory: 4.6,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Black",
+        flavour: ["Malty", "Coffee", "Chocolatey", "Nutty"]
+    },
+    
+          {
+        name: "White Knight",
+        strengthCategory: 4.7,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Hoppy", "Spicy", "Bitter"]
+    },
+    
+          {
+        name: "Orkney Cliff Edge",
+        strengthCategory: 4.7,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Golden",
+        flavour: ["Bitter", "Spicy", "Zesty", "Hoppy"]
+    },
+    
+          {
+        name: "Saltaire Cascade",
+        strengthCategory: 4.8,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Golden",
+        flavour: ["Citrust", "Hoppy", "Bitter", "Refreshing"]
+    },
+
+         {
+        name: "Vale Gravitas",
+        strengthCategory: 4.8,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Hoppy", "Citrusy", "Dry", "Malty", "Biscuit"]
+    },
+    
+          {
+        name: "Post Horn",
+        strengthCategory: 5.0,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Pale, Blond",
+        flavour: ["Bitter", "Malty", "Fruity"]
+    },
+    
+          {
+        name: "Danish Dynamite",
+        strengthCategory: 5.0,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Golden",
+        flavour: ["Spicy", "Hoppy", "Refreshing", "Fruity", "Smooth"]
+    },
+    
+          {
+        name: "Admiral's Reserve",
+        strengthCategory: 5.0,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Amber, Mid Brown",
+        flavour: ["Malty", "Sweet", "Bitter", "Fruity", "Dry"]
+    },
+    
+          {
+        name: "Wildcat",
+        strengthCategory: 5.1,
+        strength: "Between 4.6% ABV and 5.5% ABV",
+        colour: "Ruby, Dark Brown",
+        flavour: ["Malty", "Hoppy", "Fruity", "Smooth"]
+    },
+    
+          {
+        name: "Milestone West Coast IPA",
+        strengthCategory: 5.6,
+        strength: "Above 5.5% ABV",
+        colour: "Golden",
+        flavour: ["Citrusy", "Full Bodied", "Fruity"]
+    },
+    
+          {
+        name: "Island Street Porter",
+        strengthCategory: 5.9,
+        strength: "Above 5.5% ABV",
+        colour: "Black",
+        flavour: ["Chocolatey", "Coffee", "Malty", "Fruity"]
+    },
+    
+
+
 ];
